@@ -24,7 +24,7 @@ const Board = () => {
   };
 
   return (
-    <section className="bg-gray-100 :bg-gray-900">dark
+    <section className="bg-gray-100">
       <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="grid grid-cols-2 gap-4">
@@ -84,7 +84,7 @@ const Board = () => {
               className="bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-3 h-48 resize-none"
             ></textarea>
           </div>
-          <button type="submit" className="w-full text-gray-900 bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-base px-5 py-3 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+          <button type="submit" className="w-full text-gray-900 bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-base px-5 py-3 text-center">
             제출하기
           </button>
         </form>
